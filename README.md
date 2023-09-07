@@ -1,0 +1,1 @@
+HNG Internship is not a training program, rather, it's an online internship where you get to practise your coding/design/other skills with a bunch of other smart, motivated people. It's designed to be tough and challenging, but very much fun. The main goal is to 10x interns.
