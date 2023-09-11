@@ -62,8 +62,8 @@ def infos():
     track = request.args.get('track', 'backend')
     current_day = get_current_day()
     utc_time = get_utc_time()
-    github_repo_url = pass
-    github_file_url = pass
+    github_repo_url = 'https://github.com/tonybnya/HNGx'
+    github_file_url = 'https://github.com/tonybnya/HNGx/blob/main/api.py'
     status_code = 200
 
     response = {
@@ -76,8 +76,8 @@ def infos():
         'status_code': status_code
     }
 
-    return response.jsonify
+    return jsonify(response)
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5003)
